@@ -1,0 +1,137 @@
+.container{
+    display: flex;
+    
+}
+body{
+    background-color: rgb(7, 7, 37);
+}
+.head{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family:serif ;
+    position: relative;
+    top: 40px;
+    left: 450px;
+}
+img{
+    border: solid 10px;
+    border-color:rgba(233, 60, 83, 0.637);
+      display: flex;
+     position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 250px;
+    left: 520px;
+    max-width: 420px;
+    max-height: 420px;
+}
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    position: absolute;
+    top: 700px;
+    left: 150px;
+    right: 150px;
+}
+.education{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: serif;
+    position: absolute;
+    top: 800px;
+    left: 150px;
+    
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: serif;
+    position: absolute;
+    top: 950px;
+    font-size: 20px;
+    color: white;
+    font-weight: 800;
+    left: 150px;
+}
+.anima{ border: 10px;
+    border-color: rgba(233, 60, 83, 0.637);
+    border-radius: 100%;
+      display: flex;
+     position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 680px;
+    left: 100px;
+    max-width: 430px;
+    max-height: 430px;
+}
+.projects{display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: serif;
+    position: absolute;
+    top: 1200px;
+    font-size: 20px;
+    color: white;
+    font-weight: 800;
+    left: 150px;
+
+
+}
+button {
+    background-color: rgba(233, 60, 83, 0.637);
+    border: 5px;
+    border-radius: 100%;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+
+  }
+h2{
+    font-weight: 1000;
+    color: crimson;
+}
+.connect{display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: serif;
+    position: absolute;
+    top: 1400px;
+    font-size: 20px;
+    color: white;
+    font-weight: 800;
+    left: 150px;
+}
+footer{
+    
+    justify-content: center;
+    align-items: center;
+    font-family: serif;
+    position: absolute;
+    top: 1470px;
+    left: 150px;
+    font-size: 20px;
+    list-style:none ;
+    display: flex;
+    gap: 50px;
+    background-color: gold;
+}
+
+
